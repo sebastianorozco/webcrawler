@@ -2,11 +2,12 @@
 Simple Web Crawler In Python
 
 Usage
-
+```
 main.py [-h] -u URL -d DEPTH [--logfile FILE] [--loglevel {1,2,3,4,5}]
                [--thread NUM] [--dbfile FILE] [--key KEYWORD] [--testself]
+```
 Optional arguments:
-
+```
   -h, --help            show this help message and exit
   -u URL                Specify the begin url
   -d DEPTH              Specify the crawling depth
@@ -19,3 +20,4 @@ Optional arguments:
   --key KEYWORD         The keyword for crawling. Default: None. For more than
                         one word, quote them. example: --key 'Hello world'
   --testself            Crawler self test
+```
